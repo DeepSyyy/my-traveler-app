@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">My Traveler App</string>
+    <string name="lorem_paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="my_name">Falah Asyraf Darmawan Putra</string>
+    <string name="my_email">falah.asyraf0319@gmail.com</string>
+    <string name="share">Share</string>
+    <string-array name="data_place">
+        <item>Grand Canyon</item>
+        <item>Great Barrier Reef</item>
+        <item>Machu Picchu</item>
+        <item>Taj Mahal</item>
+        <item>Colosseum</item>
+        <item>Chichen Itza</item>
+        <item>Tembok Besar Tiongkok</item>
+        <item>Petra</item>
+        <item>Angkor Wat</item>
+        <item>Acropolis</item>
+    </string-array>
+    <string-array name="data_location">
+        <item>Arizona, USA</item> <!-- Grand Canyon -->
+        <item>Queensland, Australia</item> <!-- Great Barrier Reef -->
+        <item>Cusco Region, Peru</item> <!-- Machu Picchu -->
+        <item>Agra, India</item> <!-- Taj Mahal -->
+        <item>Rome, Italy</item> <!-- Colosseum -->
+        <item>Yucatán Peninsula, Mexico</item> <!-- Chichen Itza -->
+        <item>Beijing, China</item> <!-- Great Wall of China -->
+        <item>Ma\'an Governorate, Jordan</item> <!-- Petra -->
+        <item>Siem Reap, Cambodia</item> <!-- Angkor Wat -->
+        <item>Athens, Greece</item> <!-- Acropolis -->
+    </string-array>
+    <string-array name="data_open_time">
+        <item>08:00 - 17:00</item> <!-- Grand Canyon -->
+        <item>09:00 - 16:00</item> <!-- Great Barrier Reef -->
+        <item>06:00 - 17:00</item> <!-- Machu Picchu -->
+        <item>06:00 - 19:00</item> <!-- Taj Mahal -->
+        <item>08:30 - 16:30</item> <!-- Colosseum -->
+        <item>08:00 - 16:30</item> <!-- Chichen Itza -->
+        <item>08:00 - 17:00</item> <!-- Tembok Besar Tiongkok -->
+        <item>06:00 - 17:00</item> <!-- Petra -->
+        <item>05:00 - 17:30</item> <!-- Angkor Wat -->
+        <item>08:00 - 17:00</item> <!-- Acropolis -->
+    </string-array> <!-- Acropolis -->
+    <integer-array name="data_rating">
+        <item>5</item> <!-- Grand Canyon -->
+        <item>4</item> <!-- Great Barrier Reef -->
+        <item>5</item> <!-- Machu Picchu -->
+        <item>4</item> <!-- Taj Mahal -->
+        <item>5</item> <!-- Colosseum -->
+        <item>4</item> <!-- Chichen Itza -->
+        <item>5</item> <!-- Tembok Besar Tiongkok -->
+        <item>4</item> <!-- Petra -->
+        <item>5</item> <!-- Angkor Wat -->
+        <item>4</item> <!-- Acropolis -->
+    </integer-array>
+    <string-array name="data_description">
+        <item>Keajaiban alam yang terkenal di dunia ini membentang sepanjang 277 mil dan mencapai kedalaman lebih dari satu mil. Pengunjung dapat menikmati pemandangan ngarai yang menakjubkan dari berbagai sudut pandang, termasuk Mather Point, Yavapai Point, dan Hopi Point. Ada juga banyak jalur pendakian yang tersedia, mulai dari yang mudah hingga yang sulit.</item>
+        <item>Sistem terumbu karang terbesar di dunia ini terdiri dari lebih dari 2.900 terumbu karang individu dan 900 pulau yang membentang sepanjang 2.300 kilometer. Terumbu karang ini adalah rumah bagi keanekaragaman kehidupan laut yang luar biasa, termasuk lebih dari 1.500 spesies ikan, 400 spesies karang, dan 4.000 spesies moluska. Pengunjung dapat menikmati snorkeling, diving, dan wisata perahu untuk melihat keindahan terumbu karang ini.</item>
+        <item>Kota Inca kuno ini terletak tinggi di Pegunungan Andes pada ketinggian 2.430 meter di atas permukaan laut. Machu Picchu terkenal dengan arsitekturnya yang luar biasa, termasuk tembok batu kering yang presisi, dan pemandangan alamnya yang menakjubkan. Pengunjung dapat mencapai Machu Picchu dengan kereta api, bus, atau dengan mendaki Inca Trail.</item>
+        <item>Makam marmer putih yang menakjubkan ini dibangun oleh Mughal Shah Jahan untuk mengenang istri ketiganya, Mumtaz Mahal. Taj Mahal dianggap sebagai salah satu bangunan paling indah di dunia dan terkenal dengan simetrinya, detail rumit, dan penggunaan kubah yang ikonik. Pengunjung dapat mengagumi keindahan Taj Mahal dari berbagai sudut pandang, termasuk taman Mughal yang indah.</item>
+        <item>Amfiteater kuno ini dibangun pada abad ke-1 Masehi dan merupakan tempat pertarungan gladiator dan pertunjukan publik lainnya. Colosseum adalah salah satu landmark paling terkenal di Roma dan simbol sejarah Romawi yang kaya. Pengunjung dapat menjelajahi interior Colosseum dan membayangkan bagaimana tempat ini digunakan pada masa lalu.</item>
+        <item>Kota Maya kuno ini terkenal dengan piramida El Castillo yang ikonik, yang didedikasikan untuk dewa Kukulkan. Chichen Itza juga merupakan rumah bagi banyak bangunan lain, termasuk Kuil Prajurit, Lapangan Bola, dan Observatorium. Pengunjung dapat mempelajari tentang budaya Maya dan mengagumi arsitektur yang luar biasa di Chichen Itza.</item>
+        <item>Salah satu struktur buatan manusia paling mengesankan di dunia ini dibangun selama berabad-abad untuk melindungi Kekaisaran Tiongkok dari penjajah. Tembok Besar membentang lebih dari 13.000 mil dan terdiri dari banyak bagian yang berbeda, termasuk Badaling, Mutianyu, dan Jinshanling. Pengunjung dapat mendaki Tembok Besar, berjalan di sepanjang tembok, atau mengunjungi menara pengawas untuk menikmati pemandangan yang menakjubkan.</item>
+        <item>Kota kuno ini dipahat di sisi tebing batu pasir dan terkenal dengan arsitekturnya yang unik, termasuk Treasury yang ikonik. Petra adalah salah satu tujuan wisata paling populer di Timur Tengah dan menawarkan banyak hal untuk dilihat dan dilakukan, termasuk hiking, trekking, dan wisata jeep.</item>
+        <item>Candi Hindu terbesar di dunia ini dibangun pada abad ke-12 dan didedikasikan untuk dewa Wisnu. Angkor Wat terkenal dengan arsitekturnya yang rumit, termasuk relief yang indah dan menara yang menjulang tinggi. Pengunjung dapat menjelajahi kompleks candi yang luas, termasuk Angkor Thom, Ta Prohm, dan Bayon.</item>
+        <item>Situs bersejarah ini terletak di atas bukit di Athena dan merupakan rumah bagi beberapa bangunan paling terkenal di Yunani kuno, termasuk Parthenon, Erechtheion, dan Athena Nike. Acropolis adalah simbol peradaban Yunani kuno dan menawarkan pemandangan kota Athena yang menakjubkan.</item>
+    </string-array>
+    <string-array name="data_image">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/460px-Canyon_River_Tree_%28165872763%29.jpeg</item>
+        <item>https://whc.unesco.org/uploads/thumbs/site_0154_0001-750-750-20151104132153.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/540px-Machu_Picchu%2C_Peru.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/500px-Taj_Mahal_in_March_2004.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/540px-Colosseo_2020.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/440px-Chichen_Itza_3.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Great_Wall_of_China.jpeg/500px-Great_Wall_of_China.jpeg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/400px-Treasury_petra_crop.jpeg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/480px-Ankor_Wat_temple.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses_%2814220794964%29.jpg/580px-The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses_%2814220794964%29.jpg</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyTravelerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/ocean_blue</item>
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorTertiary">@color/dark_purple</item>
+        <item name="colorOnPrimary">@color/light_white</item>
+        <item name="colorOnSecondary">@color/light_white</item>
+        <item name="colorOnTertiary">@color/light_white</item>
+        <item name="colorPrimaryContainer">@color/light_blue</item>
+        <item name="colorSecondaryContainer">@color/grey_blue</item>
+        <item name="colorTertiaryContainer">@color/light_purple</item>
+        <item name="colorOnPrimaryContainer">@color/dark_blue</item>
+        <item name="colorOnSecondaryContainer">@color/dark_grey_blue</item>
+        <item name="colorOnTertiaryContainer">@color/dark_grey_purple</item>
+    </style>
+
+    <style name="Theme.MyTravelerApp" parent="Base.Theme.MyTravelerApp" />
+</resources>

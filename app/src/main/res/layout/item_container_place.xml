@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="175dp"
+    android:layout_height="175dp"
+    android:layout_marginBottom="16dp"
+    card_view:cardCornerRadius="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_item_place"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rectangle_big"
+            android:alpha="1"
+            android:backgroundTint="?attr/colorAccent"
+            android:padding="8dp"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_title_place"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:text="Ini adalah judul dari text"/>
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_location_pin_20"
+                android:drawablePadding="4dp"
+                android:padding="2dp"
+                android:textSize="12sp"
+                android:text="ini sangat panjang sekali"
+                android:textColor="@color/white"
+                card_view:layout_constraintEnd_toStartOf="@+id/tv_rating_place"
+                card_view:layout_constraintHorizontal_bias="0"
+                card_view:layout_constraintStart_toStartOf="@+id/tv_title_place"
+                android:ellipsize="end"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_title_place" />
+
+            <TextView
+                android:id="@+id/tv_rating_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:drawablePadding="4dp"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="end"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_title_place"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                android:text="4.5"
+                card_view:drawableStartCompat="@drawable/baseline_star_20" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
